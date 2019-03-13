@@ -1,11 +1,9 @@
-# NIH x-ray images classification
+# Grad-CAM based Inpainting 
 
 ## About
-We are using the NIH X-ray raw dataset at [NIH Clinical Center](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community). The code is inspired by the cat vs. dog image classificaton at [Machine Learning Crash Course by Google Developers](https://developers.google.com/machine-learning/practica/image-classification/).
-
+rc='./figures/pipeline.png' />
 
 ## Requirements
-Tested in Ubuntu Linux and Mac-OS:
 
 1. Download and install Anaconda,
 2. Start Anaconda Navigator,
@@ -18,12 +16,3 @@ Tested in Ubuntu Linux and Mac-OS:
 1. Activate TF environment (tab "Environments"),
 2. Launch Jupyter Notebook (tab "Home"),
 3. Open "CNN.ipynb"-file inside the Jupyter Notebook and run all cells starting at the top.
-
-
-## Improve
-1. Create Deep CNN (more layers),
-2. Add different Dropout layers, 
-3. Less image-downscaling (variable: target_size), 
-4. Create Transfer learning CNN from InceptionV3 by cutting at "mixed7" layer,
-5. Use data augmentation,
-6. Play with train/validation split.
