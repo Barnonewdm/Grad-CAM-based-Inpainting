@@ -1,7 +1,7 @@
 # Grad-CAM based Inpainting 
 
 ## About
-rc='./figures/pipeline.png' />
+<img src='./figures/Pipeline.png' />
 
 ## Requirements
 
